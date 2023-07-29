@@ -1,0 +1,38 @@
+{
+  "name": "vue-template",
+  "version": "1.0.0",
+  "description": "Vite/Vuetify + Pug/StandardJS starter template",
+  "author": "Nicolas Bariquand <nicolas.barriquand@outlook.fr>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src/**/*.{js,vue}",
+    "test": "npm run lint",
+    "deploy": "gh-pages -d dist",
+    "gen": "npm run test && npm run build && npm run deploy"
+  },
+  "dependencies": {
+    "@mdi/font": "7.2.96",
+    "roboto-fontface": "*",
+    "vue": "^3.3.4",
+    "vuetify": "^3.3.10",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/language-plugin-pug": "^1.8.8",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-vue-pug": "^0.6.0",
+    "eslint-plugin-vuetify": "^2.0.5",
+    "gh-pages": "^5.0.0",
+    "pug": "^3.0.2",
+    "vite": "^4.4.7",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbarikipoulos/vue-template.git"
+  }
+}
