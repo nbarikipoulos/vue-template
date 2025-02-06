@@ -1,15 +1,16 @@
 # Vue.js Starter Template
 
-[![JavaScript Style Guide][standard-image]][standard-url]
+[![neostandard javascript style][neostandard-image]][neostandard-url]
 
-A simple Vite/Vuetify + Pug/StandardJS starter template.
+
+A simple Vite/Vuetify + Pug/(Neo)Standard starter template.
 
 ## Features
 
 - [Vue 3][vue3-url],⚡️[Vite][vite-url],
 - [Vuetify][vuetify-url],
 - [Pug][pug-url],
-- [StandardJS][standard-url].
+- [(Neo)standard][neostandard-url].
 
 ## Getting Started
 
@@ -27,6 +28,7 @@ npm run dev
 ```
 
 ## License
+![MIT][mit-svg]
 
 MIT licensed. See [LICENSE](./LICENSE.md).
 
@@ -34,5 +36,6 @@ MIT licensed. See [LICENSE](./LICENSE.md).
 [vite-url]: https://vitejs.dev
 [vuetify-url]: https://vuetifyjs.com
 [pug-url]: https://pugjs.org
-[standard-url]: https://standardjs.com
-[standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[neostandard-url]: https://github.com/neostandard/neostandard
+[neostandard-image]: https://img.shields.io/badge/code_style-neostandard-brightgreen
+[mit-svg]: https://upload.wikimedia.org/wikipedia/commons/f/f8/License_icon-mit-88x31-2.svg

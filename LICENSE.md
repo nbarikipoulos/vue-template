@@ -13,11 +13,11 @@ PUG logo is under MIT license: see https://github.com/pugjs/pug
 
 ==============================
 
-StandardJS logo under MIT license
+neostandard logo under MIT license
 
 The MIT License (MIT)
 
-Copyright (c) Feross Aboukhadijeh
+Copyright (c) 2024 neostandard contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
