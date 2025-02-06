@@ -4,6 +4,7 @@
   "description": "Vite/Vuetify + Pug/StandardJS starter template",
   "author": "Nicolas Bariquand <nicolas.barriquand@outlook.fr>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,22 +15,23 @@
     "gen": "npm run test && npm run build && npm run deploy"
   },
   "dependencies": {
-    "@mdi/font": "7.2.96",
+    "@mdi/font": "7.4.47",
     "roboto-fontface": "*",
-    "vue": "^3.3.4",
-    "vuetify": "^3.3.10",
+    "vue": "^3.5.13",
+    "vuetify": "^3.7.7",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vue/language-plugin-pug": "^1.8.8",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-vue-pug": "^0.6.0",
-    "eslint-plugin-vuetify": "^2.0.5",
-    "gh-pages": "^5.0.0",
-    "pug": "^3.0.2",
-    "vite": "^4.4.7",
-    "vite-plugin-vuetify": "^1.0.2"
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/language-plugin-pug": "^2.2.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "eslint-plugin-vue-pug": "^0.6.2",
+    "eslint-plugin-vuetify": "^2.5.1",
+    "gh-pages": "^6.3.0",
+    "pug": "^3.0.3",
+    "vite": "^6.0.11",
+    "vite-plugin-vuetify": "^2.0.4"
   },
   "repository": {
     "type": "git",
