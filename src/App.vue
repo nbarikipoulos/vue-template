@@ -13,12 +13,12 @@ v-app
 </template>
 
 <script setup>
-import { vue, vuetify, pug, standard } from '@/utils/images'
+import { vue, vuetify, pug, neostandard } from '@/utils/images'
 
 const logos = [
   [vue, 'vue 3'],
   [vuetify, 'vuetify'],
   [pug, 'pug'],
-  [standard, 'standard JS']
+  [neostandard, 'neo standard'],
 ].map(([src, label]) => ({ src, label }))
 </script>
