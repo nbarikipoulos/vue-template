@@ -22,6 +22,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
+    "@unhead/vue": "^1.1.19",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/language-plugin-pug": "^2.2.0",
     "eslint": "^9.19.0",

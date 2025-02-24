@@ -14,6 +14,15 @@ v-app
 
 <script setup>
 import { vue, vuetify, pug, neostandard } from '@/utils/images'
+import { useHead } from '@unhead/vue'
+
+useHead({
+  title: 'Vue3/Vite/Vuetify Starter Template',
+  meta: [{
+    name: 'description',
+    content: 'Starter template with Vue.js, Vite, Vuetify, Pug and Neo-Standard',
+  }]
+})
 
 const logos = [
   [vue, 'vue 3'],
